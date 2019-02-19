@@ -21,79 +21,93 @@ div{
     }
 }
 .ht {
-    background-image: url("img/html.png");
+    background-color: red;
+    /* background-image: url("img/html.png");
     display:block;
     margin-left:auto;
     margin-right: auto;
     background-size: cover;
+    z-index: -1; */
 }
 
 .cs {
-    background-image: url("img/CSS.png");
+    background-color:blue;
+    /* background-image: url("img/CSS.png");
     display:block;
     margin-left:auto;
     margin-right: auto;
     background-size: cover;
+    z-index: -1; */
+    
 }
 
 .js {
-    background-image: url("img/JS.png");
+    background-color:yellow;
+    /* background-image: url("img/JS.png");
     display:block;
     margin-left:auto;
     margin-right: auto;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .ph {
-    background-image: url("img/PHP.png");
+    background-color:green;
+    /* background-image: url("img/PHP.png");
     display:block;
     margin-left:auto;
     margin-right: auto;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .jav {
-    background-image: url("img/JAVA.png");
+    background-color:brown;
+    /* background-image: url("img/JAVA.png");
     display:block;
     margin-left:auto;
     margin-right: auto;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .pyth {
-    background-image: url("img/PYTHON.png");
+    background-color:pink;
+    /* background-image: url("img/PYTHON.png");
     display:block;
     margin-left:auto;
     margin-right: auto;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .rea {
-    background-image: url("img/REACT.png");
+    background-color:orange;
+    /* background-image: url("img/REACT.png");
     display:block;
     margin-left:auto;
     margin-right: auto;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .angu {
-    background-image: url("img/ANGULAR.png");
+    background-color:purple;
+    /* background-image: url("img/ANGULAR.png");
     display:block;
     margin-left:auto;
     margin-right: auto;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .vju {
-    background-image: url("img/VUE.png");
+    background-color:aqua;
+    /* background-image: url("img/VUE.png");
     display:block;
     margin-left:auto;
     margin-right: auto;
-    background-size: cover;
+    background-size: cover; */
+    
 }
 
 .hidden {
     background-color: black;
+    /* z-index: 2; */
 }
 
 .off {
