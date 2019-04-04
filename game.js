@@ -7,7 +7,7 @@ const counter = new Date().getTime();
 
 const gamePairs = (cards.length)/2;
 let choosenCard = "";
-const pairOfCards = [];
+let pairOfCards = [];
 
 let gameResult = 0;
 
@@ -30,6 +30,28 @@ const clickOnCard = function(){
         console.log("2 element");
         cards.forEach(card => card.removeEventListener("click",clickOnCard))
         pairOfCards[1] = choosenCard;
+        
+        setTimeout(function(){
+
+       
+        if(pairOfCards[0].className === pairOfCards[1].className){
+           pairOfCards.forEach(card => card.classList.add("off"));
+           gameResult++;
+           if(gameResult == gamePairs){
+            const endTime = new Date().getTime();
+            const gameTime = (endTime - counter)/1000;
+            alert(`WYGRANA! Czas gry wyniósł ${gameTime} sekund`);
+            location.reload();
+           }
+
+
+        }else{
+            pairOfCards.forEach(card => card.classList.add("hidden"));
+        }
+        choosenCard = "";
+        pairOfCards.length = 0;
+        cards.forEach(card => card.addEventListener("click",clickOnCard));
+    },1000)
     }
 }
 const init = function(){
