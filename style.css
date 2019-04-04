@@ -13,6 +13,9 @@ div{
     height: 33.33vh;
     background-color:black;
     border:4px solid white;
+    margin:0 auto;
+    display: block;
+    background-size: cover;
 }
 @media(orientation: portrait){
     div{
@@ -21,93 +24,53 @@ div{
     }
 }
 .red {
-    background-color: red;
-    /* background-image: url("img/html.png");
-    display:block;
-    margin-left:auto;
-    margin-right: auto;
-    background-size: cover;
-    z-index: -1; */
+     background-image: url("img/html.png");
+
 }
 
 .blue {
-    background-color:blue;
-    /* background-image: url("img/CSS.png");
-    display:block;
-    margin-left:auto;
-    margin-right: auto;
-    background-size: cover;
-    z-index: -1; */
-    
+     background-image: url("img/CSS.png");
+
 }
 
 .yellow {
-    background-color:yellow;
-    /* background-image: url("img/JS.png");
-    display:block;
-    margin-left:auto;
-    margin-right: auto;
-    background-size: cover; */
+     background-image: url("img/JS.jpeg");
+
 }
 
 .green {
-    background-color:green;
-    /* background-image: url("img/PHP.png");
-    display:block;
-    margin-left:auto;
-    margin-right: auto;
-    background-size: cover; */
+     background-image: url("img/PHP.png");
+   
 }
 
 .brown {
-    background-color:brown;
-    /* background-image: url("img/JAVA.png");
-    display:block;
-    margin-left:auto;
-    margin-right: auto;
-    background-size: cover; */
+     background-image: url("img/JAVA.png");
+
 }
 
 .pink {
-    background-color:pink;
-    /* background-image: url("img/PYTHON.png");
-    display:block;
-    margin-left:auto;
-    margin-right: auto;
-    background-size: cover; */
+     background-image: url("img/PYTHON.png");
+  
 }
 
 .orange {
-    background-color:orange;
-    /* background-image: url("img/REACT.png");
-    display:block;
-    margin-left:auto;
-    margin-right: auto;
-    background-size: cover; */
+    background-image: url("img/REACT.png");
+
 }
 
 .lightgreen {
-    background-color:lightgreen;
-    /* background-image: url("img/ANGULAR.png");
-    display:block;
-    margin-left:auto;
-    margin-right: auto;
-    background-size: cover; */
+     background-image: url("img/ANGULAR.png");
+
 }
 
 .aqua {
-    background-color:aqua;
-    /* background-image: url("img/VUE.png");
-    display:block;
-    margin-left:auto;
-    margin-right: auto;
-    background-size: cover; */
-    
+     background-image: url("img/VUE.png");
+
 }
 
 .hidden {
-    background-color: black;
-    /* z-index: 2; */
+    background-image: url()
+    
 }
 
 .off {

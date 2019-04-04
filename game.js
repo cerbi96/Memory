@@ -23,11 +23,11 @@ const clickOnCard = function(){
     
     choosenCard.classList.remove("hidden");
     if(pairOfCards.length === 0){
-        console.log("1 element");
+        
         pairOfCards[0] = choosenCard;
         return;
     }else{
-        console.log("2 element");
+        
         cards.forEach(card => card.removeEventListener("click",clickOnCard))
         pairOfCards[1] = choosenCard;
         
@@ -37,6 +37,7 @@ const clickOnCard = function(){
         if(pairOfCards[0].className === pairOfCards[1].className){
            pairOfCards.forEach(card => card.classList.add("off"));
            gameResult++;
+           cards = cards.filter(card => !card.classList.contains("off"));
            if(gameResult == gamePairs){
             const endTime = new Date().getTime();
             const gameTime = (endTime - counter)/1000;
@@ -67,7 +68,7 @@ setTimeout(function(){
         card.addEventListener("click",clickOnCard)
     })
 
-},3000)
+},1500)
 }
 
 init()
